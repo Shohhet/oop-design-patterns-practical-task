@@ -1,4 +1,4 @@
-package patterns.behavioral.iterator;
+package patterns.behavioral.iterator.radio;
 
 public class RadioWave {
     private final double frequency;

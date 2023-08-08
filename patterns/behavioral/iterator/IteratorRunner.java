@@ -1,5 +1,9 @@
 package patterns.behavioral.iterator;
 
+import patterns.behavioral.iterator.radio.Iterator;
+import patterns.behavioral.iterator.radio.Radio;
+import patterns.behavioral.iterator.radio.RadioWave;
+
 import java.util.concurrent.TimeUnit;
 
 public class IteratorRunner {

@@ -18,9 +18,7 @@ public class ProxyRunner {
         proxy.addRestrictedUrl("www.youtube.com");
         proxy.addRestrictedUrl("www.brazzers.com");
 
-        for (String url: urls) {
-            System.out.println(proxy.getWebPage(url));
-        }
+        urls.forEach(url -> System.out.println(proxy.getWebPage(url)));
 
     }
 }
